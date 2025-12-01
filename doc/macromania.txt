@@ -1,0 +1,31 @@
+*macromania.txt*    macromania.nvim — persistent macro manager
+
+macromania.nvim is a fuzzy-searchable macro catalog for Neovim.
+
+COMMANDS~
+    :MacroAdd
+        Create a new macro from a register.
+
+    :MacroList
+        List available macros using fzf.
+
+    :MacroHistory
+        Show macros sorted by last-used timestamp.
+
+    :MacroTag <tag>
+        Show macros matching the given tag.
+
+FILES~
+    macromania.json — stored in stdpath("data")
+
+MAPPINGS~
+    Suggested:
+        <leader>ma — MacroAdd
+        <leader>mm — MacroList
+        <leader>mh — MacroHistory
+
+AUTHOR~
+    Sean Flanagan <github.com/seanm33>
+
+LICENSE~
+    MIT
